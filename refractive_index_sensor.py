@@ -38,7 +38,7 @@ selected_ri = analytes[selected_analyte]
 # **Tunable Parameters**
 if optical_structure == "1D Grating":
     grating_height = st.sidebar.slider("Grating Height (µm)", 0.1, 2.0, 0.3, 0.05)
-    waveguide_thickness = st.sidebar.slider("Waveguide Thickness (µm)", 0.2, 2.0, 0.5, 0.1)
+    waveguide_thickness = st.sidebar.slider("Waveguide Thickness (µm)", 0.1, 2.0, 0.5, 0.1)
     periodicity = st.sidebar.slider("Periodicity (nm)", 200, 1200, 500, 50)
 
 elif optical_structure == "Ring Resonator":
